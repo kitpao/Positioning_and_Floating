@@ -158,3 +158,29 @@ nav .nav_buttons button:hover{
 nav .nav_button2 {
   margin-left: 3px;
 }
+
+body{
+  width: 100%;
+}
+
+main{
+  display: block;
+  width: 1200px;
+  background-color: blue;
+  padding-top: 45px;
+  margin: auto;
+
+}
+.header2{
+  width: 100%;
+}
+
+.header2 .title span{
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  max-width: 20%;
+}
