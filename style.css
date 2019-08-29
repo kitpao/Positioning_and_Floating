@@ -1,4 +1,4 @@
-/*Start of reset css */
+/* Start of reset css */
 
 html,
 body,
@@ -38,10 +38,6 @@ video {
   background: transparent;
 }
 
-body {
-  line-height: 1;
-}
-
 article,
 aside,
 figcaption,
@@ -74,12 +70,12 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
 }
 
-/*End of reset css */
+/* End of reset css */
 
 nav {
   display: -webkit-box;
@@ -94,17 +90,16 @@ nav {
   position: fixed;
   width: 100%;
   height: 42px;
-
   z-index: 1;
   background-color: #fff;
   border-bottom: #e2e2e2 solid 1px;
 }
+
 nav .burger_icon {
   padding-left: 19px;
   display: inline-block;
   height: 16px;
   width: 16px;
-
 }
 
 nav .search_icon {
@@ -113,7 +108,6 @@ nav .search_icon {
   display: inline-block;
   height: 16px;
   width: 16px;
-
 }
 
 nav .topic a {
@@ -125,7 +119,6 @@ nav .topic a {
   line-height: 19px;
   color: #000;
   text-decoration: none;
-
 }
 
 nav .nav_logo {
@@ -161,8 +154,9 @@ nav .nav_button2 {
 
 body {
   width: 100%;
+  line-height: 1;
 }
-/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
+
 main {
   display: block;
   width: 75em;
@@ -200,7 +194,7 @@ main {
   width: 72%;
   margin-right: 100px;
   color: #666;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 1em;
   font-weight: 500;
   line-height: 1.25em;
@@ -216,7 +210,7 @@ main {
 
 .header_info {
   display: block;
-  height:4.125em;
+  height: 4.125em;
 }
 
 .author_date {
@@ -226,12 +220,12 @@ main {
   height: 50px;
 }
 
-.author_date a {
+.header_info .author_date a {
   text-decoration: none;
   color: inherit;
 }
 
-.author_date span {
+.header_info .author_date span {
   font-size: 0.9375rem;
   line-height: 1.25rem;
   letter-spacing: 0.02em;
@@ -243,7 +237,6 @@ main {
   padding: auto 30px;
 }
 
-
 .author_date time {
   display: block;
   margin-top: 22px;
@@ -252,13 +245,12 @@ main {
   color: #333;
   font-size: 0.8125rem;
   line-height: 1rem;
-
 }
 
 .icons {
-  display:inline-block;
+  display: inline-block;
   float: right;
-  position:relative;
+  position: relative;
   top: 1.95em;
   margin-bottom: 0;
   height: auto;
@@ -267,11 +259,11 @@ main {
 }
 
 .social_icons {
-  display:inline-block;
+  display: inline-block;
 }
 
 .comments_icons {
-  display:inline-block;
+  display: inline-block;
   float: right;
 }
 
