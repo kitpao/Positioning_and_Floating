@@ -214,11 +214,8 @@ main {
   letter-spacing: 0.1px;
 }
 
-/*hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh*/
-
 .header_info {
   display: block;
-  background-color: yellow;
   height:4.125em;
 }
 
@@ -227,10 +224,9 @@ main {
   float: left;
   width: 50%;
   height: 50px;
-  /*background-color: pink;*/
 }
 
-.author_date a{
+.author_date a {
   text-decoration: none;
   color: inherit;
 }
@@ -249,33 +245,32 @@ main {
 
 
 .author_date time {
+  display: block;
+  margin-top: 22px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 500;
   color: #333;
-  margin-bottom: 1rem;
   font-size: 0.8125rem;
   line-height: 1rem;
-  margin-bottom: 0;
-  margin-top: 0;
-  display: block;
+
 }
 
 .icons {
   display:inline-block;
   float: right;
   position:relative;
+  top: 1.95em;
   margin-bottom: 0;
   height: auto;
   align-items: baseline;
-  background-color: blue;
   width: 38.5%;
 }
 
-.social_icons{
+.social_icons {
   display:inline-block;
-
 }
-.comments_icons{
+
+.comments_icons {
   display:inline-block;
   float: right;
 }
@@ -288,22 +283,23 @@ main {
   padding: 5px;
   width: 15px;
   height: 15px;
-  margin: 0 5px;
+  margin: 5px 5px;
 }
 
 .comments_icons svg {
   display: inline-block;
-
 }
 
 .comments_icons .login {
   width: 40px;
-  height: 28px;
+  height: 24px;
   stroke: none;
-  vertical-align: center;
+  vertical-align: top;
+  margin-top: 6px;
 }
 
 .comments_icons .comment_number {
   width: 30px;
   height: 28px;
+  margin-top: 4px;
 }
