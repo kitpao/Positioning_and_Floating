@@ -295,3 +295,39 @@ main {
   height: 28px;
   margin-top: 4px;
 }
+
+.content p {
+
+
+  font-size: 1.20rem;
+  line-height: 1.875rem;
+  color: #333;
+  letter-spacing: -0.03em
+}
+
+article{
+  background-color: yellow;
+  text-align:center;
+}
+
+.content {
+  display:inline-block;
+    width: 50%;
+    margin: 0 auto;
+    background-color: red;
+    top = 1em;
+}
+
+.left_div {
+  float: left;
+  background-color: blue;
+  height: 500px;
+  width: 200px;
+}
+aside {
+  float: right;
+  background-color: green;
+  height: 500px;
+  width: 200px;
+
+}
