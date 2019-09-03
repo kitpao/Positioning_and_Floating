@@ -189,19 +189,23 @@ main {
   padding-top: 1.5em;
 }
 
-.header_picture figcaption {
+.header_picture figcaption,
+.cosmos2 figcaption,
+.video figcaption {
   padding-top: 0.5em;
   width: 72%;
   margin-right: 100px;
   color: #666;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 1em;
+  font-family:  georgia, 'times new roman', times, serif;
+  font-size: 0.9em;
   font-weight: 500;
   line-height: 1.25em;
   letter-spacing: 0.4px;
 }
 
-.header_picture figcaption span {
+.header_picture figcaption span,
+.cosmos2 figcaption span,
+.video span {
   color: #888;
   text-align: baseline;
   font-size: 0.9em;
@@ -240,7 +244,7 @@ main {
 .author_date time {
   display: block;
   margin-top: 22px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-weight: 500;
   color: #333;
   font-size: 0.8125rem;
@@ -296,38 +300,156 @@ main {
   margin-top: 4px;
 }
 
+.left_div {
+  float: left;
+  height: 500px;
+  width: 8em;
+}
+
+aside {
+  float: right;
+  height: 500px;
+  width: 8em;
+}
+
+article {
+  text-align:center;
+}
+
+article .adjusted_content {
+  text-align: center;
+  display: inline-block;
+  width: 78.5%;
+}
+
+.content {
+  display:inline-block;
+  width: 37.5em;
+  margin: 0 auto;
+  top = 1em;
+}
+
 .content p {
-
-
+  text-align: left;
   font-size: 1.20rem;
   line-height: 1.875rem;
   color: #333;
   letter-spacing: -0.03em
 }
 
-article{
-  background-color: yellow;
-  text-align:center;
+.section_inflation {
+  margin-top: 25px;
+  position: relative;
+  width: 100%;
+  height: 710px;
+  margin-bottom: 1.875em;
 }
 
-.content {
-  display:inline-block;
-    width: 50%;
-    margin: 0 auto;
-    background-color: red;
-    top = 1em;
+.theory {
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 20px;
 }
 
-.left_div {
-  float: left;
-  background-color: blue;
-  height: 500px;
-  width: 200px;
+.theory h2 {
+  font-size: 20px
 }
-aside {
-  float: right;
-  background-color: green;
-  height: 500px;
-  width: 200px;
 
+.theory p {
+  font-size: 15px;
+  line-height: 17px;
+  color: #666;
+}
+
+.inflation_cont {
+  height: 700px;
+  width: 59.0625em;
+  overflow: hidden;
+  position: relative;
+}
+
+.inflation_cont img {
+  max-width: 100%;
+  height: auto;
+}
+
+.inflation_cont .row {
+  display: flex;
+  max-width: 100%;
+}
+
+.inflation_cont .row:nth-of-type(1) {
+  position: absolute;
+  top: 21%;
+}
+
+.inflation_cont .row:nth-of-type(2) {
+  position: absolute;
+  bottom: 24%;
+}
+
+.inflation_cont .row p {
+  margin: 0 20px;
+  color: #000;
+}
+
+.inflation_cont .row > p {
+  margin-left: 0;
+}
+
+.inflation_cont .row p:last-child {
+  margin-right: 0;
+}
+
+.inflation_cont p {
+  text-align: left;
+  line-height: 15px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: .01em;
+}
+
+.sub_title {
+  font-weight: 600;
+  padding-right: 11px;
+}
+
+.pic_author hr {
+  border: none;
+  height: 0.7px;
+  width: 6%;
+  background: #464646;
+}
+
+.pic_author p {
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  font-family: arial,helvetica,sans-serif;
+  font-weight: 500;
+  color: #333;
+}
+
+iframe {
+  width: 100%;
+  height: 22em;
+}
+
+.video figcaption {
+  width: inherit;
+  text-align: left;
+  font-size: 0.9375em;
+  line-height: 1.25em;
+}
+
+.cosmos2 figcaption {
+  margin-left: 12%;
+  text-align: left;
+  font-size: 0.9375em;
+  line-height: 1.25em;
+}
+
+.cosmos2 img {
+  width: 76%;
 }
