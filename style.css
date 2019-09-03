@@ -168,7 +168,7 @@ main {
   display: inline-block;
 }
 
-.test,
+.title,
 .header_info {
   width: 50%;
   margin: 2.8em auto 0;
@@ -294,8 +294,8 @@ main {
   background-color: #eee;
   border-radius: 100%;
   padding: 5px;
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   margin: 5px 5px;
   border: solid 1.5px #eee;
 }
@@ -329,24 +329,19 @@ main {
   width: 8em;
 }
 
-aside {
-  float: right;
-  height: 500px;
-  width: 8em;
-}
-
 article {
   text-align: center;
 }
 
 article .adjusted_content {
   text-align: center;
-  display: inline-block;
+  margin: 0 auto;
+  display: block;
   width: 78.5%;
 }
 
 .content {
-  display: run-inline-block;
+  display: inline-block;
   width: 37.5em;
   margin: 1em auto;
 }
@@ -543,4 +538,100 @@ iframe {
   display: inline-block;
   bottom: 0;
   float: right;
+}
+
+.signup_aside {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 155%;
+  left: 85em;
+  height: 10.125em;
+  width: 11.25em;
+  text-align: left;
+}
+
+.signup_aside h1{
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #000;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.signup_aside p{
+  font-family: helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8125em;
+  line-height: 1rem;
+  color: #666;
+  margin: 0.60em 0;
+}
+
+.signup_aside .btn_signup {
+  padding: 10px 15px 8px;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: helvetica, arial, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  vertical-align: middle;
+  background-color: #6288a5;
+  border: #326891 solid 1px;
+}
+
+.editors_pick {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 237%;
+  left: 84em;
+  height: 20em;
+  width: 20em;
+  text-align: left;
+}
+
+.editors_pick h2 {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 700;
+  color: #000;
+  border-bottom: 1px solid #e2e2e2;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+}
+
+.editors_pick .block {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.editors_pick img {
+  display: inline-block;
+  width: 4.75em;
+  height: auto;
+   vertical-align: top;
+}
+
+.editors_pick a {
+  display: inline-block;
+  width: 8.37em;
+  font-family: georgia, "times new roman";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #333;
+  text-decoration: none;
+}
+
+.editors_pick a:hover {
+  text-decoration: underline;
 }
