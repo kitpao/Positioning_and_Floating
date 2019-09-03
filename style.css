@@ -245,7 +245,7 @@ main {
   display: block;
   margin-top: 22px;
   font-family: helvetica, arial, sans-serif;
-  font-weight: 500;
+  font-weight: 500;329
   color: #333;
   font-size: 0.8125rem;
   line-height: 1rem;
@@ -325,8 +325,7 @@ article .adjusted_content {
 .content {
   display:inline-block;
   width: 37.5em;
-  margin: 0 auto;
-  top = 1em;
+  margin: 1em auto;
 }
 
 .content p {
@@ -334,7 +333,7 @@ article .adjusted_content {
   font-size: 1.20rem;
   line-height: 1.875rem;
   color: #333;
-  letter-spacing: -0.03em
+  letter-spacing: -0.03em;
 }
 
 .section_inflation {
