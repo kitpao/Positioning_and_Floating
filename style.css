@@ -388,6 +388,9 @@ article .adjusted_content h2 {
   text-align: left;
   margin-bottom: 1em;
   font-weight: 700;
+  font-size: 1.25em;
+  line-height: 1.875em;
+  color: #333;
 }
 
 article .signup_aside p {
@@ -585,7 +588,7 @@ article .signup_aside {
   position: absolute;
   z-index: 1;
   top: 155%;
-  left: 85em;
+  left: 73em;
   height: 10.125em;
   width: 11.25em;
   text-align: left;
@@ -619,9 +622,9 @@ article .editors_pick {
   position: absolute;
   z-index: 2;
   top: 237%;
-  left: 84em;
+  left: 72em;
   height: 20em;
-  width: 20em;
+  width: 13em;
   text-align: left;
 }
 
@@ -629,4 +632,34 @@ article .editors_pick .block {
   display: inline-block;
   width: 100%;
   margin-bottom: 1em;
+}
+
+.related {
+  display: block;
+  background-color: pink;
+  height: 50em;
+
+}
+
+.more {
+  display: inline-block;
+  width: 71%;
+  height: 40em;
+  background-color: magenta;
+  padding-right: 2em;
+
+}
+.more hr{
+  width: 100%;
+}
+
+.most_popular {
+  top: 0;
+  display: inline-block;
+  width: 20%;
+  background-color: cyan;
+}
+
+.most_popular hr {
+  width: 100%;
 }
