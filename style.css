@@ -163,6 +163,13 @@ main {
   margin: 2.8em auto 0;
 }
 
+figcaption span {
+  color: #888;
+  text-align: baseline;
+  font-size: 0.9em;
+  letter-spacing: 0.1px;
+}
+
 .header2 .title span {
   color: #121212;
   font-family: georgia, 'times new roman', times, serif;
@@ -197,13 +204,6 @@ figcaption {
   letter-spacing: 0.4px;
 }
 
-figcaption span {
-  color: #888;
-  text-align: baseline;
-  font-size: 0.9em;
-  letter-spacing: 0.1px;
-}
-
 .header2 .header_info {
   display: block;
   height: 4.125em;
@@ -230,7 +230,7 @@ nav .topic a {
 article .editors_pick a {
   display: inline-block;
   width: 8.37em;
-  font-family: "times new roman";
+  font-family: georgia, 'times new roman', times, serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -238,17 +238,8 @@ article .editors_pick a {
   text-decoration: none;
 }
 
-article .editors_pick a:hover {
-  text-decoration: underline;
-}
-
 article .adjusted_content p a {
   text-decoration: underline;
-  color: #326891;
-}
-
-article .adjusted_content p a:hover {
-  text-decoration: none;
   color: #326891;
 }
 
@@ -257,15 +248,24 @@ article .internal_footer h4 a {
   text-decoration: none;
 }
 
-article .internal_footer h4 a:hover {
-  color: inherit;
-  text-decoration: underline;
-}
-
 .header2 .header_info .author_date a {
   text-decoration: none;
   border-bottom: 1px solid #ccc;
   color: inherit;
+}
+
+article .editors_pick a:hover {
+  text-decoration: underline;
+}
+
+article .adjusted_content p a:hover {
+  text-decoration: none;
+  color: #326891;
+}
+
+article .internal_footer h4 a:hover {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .header2 .header_info .author_date a:hover {
