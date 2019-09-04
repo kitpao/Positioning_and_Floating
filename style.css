@@ -636,30 +636,89 @@ article .editors_pick .block {
 
 .related {
   display: block;
-  background-color: pink;
   height: 50em;
-
 }
 
 .more {
   display: inline-block;
+  border-top: solid 1px #000;
   width: 71%;
-  height: 40em;
+  height: 70em;
   background-color: magenta;
-  padding-right: 2em;
+  margin-right: 2em;
+  padding-top: 1.5em;
+}
+
+.related a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 0.875em;
+  font-family: Helvetica, sans-serif;
+}
+
+.related a:hover {
+  text-decoration: underline;
+}
+
+.related .principal {
+  padding-top: 1.2em;
+  height: 39em;
+  background-color: orange;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 15px;
+  grid-row-gap: 7px;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.item {
+  min-width: 0;
+}
+
+.item img {
+  max-width: 100%;
+}
+
+.item figcaption {
+  width: 100%;
+  height: 2em;
+  text-align:right;
+  font-size: 0.55em;
+  font-weight: lighter;
+  color: #999;
 
 }
-.more hr{
-  width: 100%;
+
+.item p {
+  font-family: "times new roman", times, serif;
+  font-size: 1em;
+  letter-spacing: 0.03em;
 }
+
+.item span {
+  letter-spacing: 0.3px;
+  color: #999;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.7em;
+  line-height: 2.5em;
+}
+
+
+
+
+
 
 .most_popular {
-  top: 0;
   display: inline-block;
-  width: 20%;
+  border-top: solid 1px #000;
+  width: 26.3%;
+  height: 40em;
   background-color: cyan;
-}
-
-.most_popular hr {
-  width: 100%;
+  vertical-align: top;
+  padding-top: 1.5em;
 }
