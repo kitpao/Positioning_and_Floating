@@ -279,6 +279,17 @@ article .internal_footer h4 a {
   text-decoration: none;
 }
 
+.related a:hover {
+  text-decoration: underline;
+}
+
+.map .home_link a {
+  color: #7a8fa3;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: Helvetica, sans-serif;
+}
+
 article .editors_pick a:hover {
   text-decoration: underline;
 }
@@ -291,17 +302,6 @@ article .adjusted_content p a:hover {
 article .internal_footer h4 a:hover {
   color: inherit;
   text-decoration: underline;
-}
-
-.related a:hover {
-  text-decoration: underline;
-}
-
-.map .home_link a {
-  color: #7a8fa3;
-  text-decoration: none;
-  font-size: 11px;
-  font-family: Helvetica, sans-serif;
 }
 
 .header2 .header_info .author_date a {
