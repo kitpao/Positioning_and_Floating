@@ -163,6 +163,16 @@ main {
   margin: 2.8em auto 0;
 }
 
+footer span {
+  font-size: 14.25px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 60px;
+  color: #000;
+  margin-left: 20%;
+}
+
 .figcaption span {
   color: #888;
   text-align: baseline;
@@ -830,18 +840,8 @@ footer {
   text-align: center;
 }
 
-footer span {
-  font-size: 14.25px;
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.2px;
-  line-height: 60px;
-  color: #000;
-  margin-left: 20%;
-}
-
 footer h6 {
-  display:block;
+  display: block;
   font-size: 10px;
   font-family: helvetica, arial, sans-serif;
   font-weight: bolder;
