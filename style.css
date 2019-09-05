@@ -649,7 +649,7 @@ article .signup_aside {
   position: absolute;
   z-index: 1;
   top: 155%;
-  left: 73em;
+  left: calc(50% + 29.5em);
   height: 10.125em;
   width: 11.25em;
   text-align: left;
@@ -687,7 +687,7 @@ article .editors_pick {
   position: absolute;
   z-index: 2;
   top: 237%;
-  left: 72em;
+  left: calc(50% + 29.5em);
   height: 20em;
   width: 13em;
   text-align: left;
