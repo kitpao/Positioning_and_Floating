@@ -1,8 +1,22 @@
 # Positioning_and_Floating
-New-York Times article clone assigment for microverse developers program using forms in HTML and CSS.
+New-York Times article clone assignment for Microverse developers program using forms in HTML and CSS.
 
 If you want to preview the project use this link:
+
+https://rawcdn.githack.com/leonmezu1/Positioning_and_Floating/ce2cd47c3e3626697fb6ce333582c45b9bd41d5c/index.html
+
 --------------------------------------------------
+
+Some of our repositories are available for you to check:
+
+Kitzia Vidal:
+
+https://github.com/kitpao?tab=repositories
+
+
+Leonardo Mezu:
+
+https://github.com/leonmezu1?tab=repositories
 
 As Microverse students we intend to recreate as good as possible the New-York times article page
 
